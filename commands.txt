@@ -1,0 +1,148 @@
+su root
+ls
+cd GIT/
+ls -la
+hostname
+w
+pwd
+ping google.com
+ls -la
+pwd
+git -v
+git status
+git config --global --list
+cd GIT/
+git config --global --list
+git config --global user.name "YottDhee"
+git config --global user.email "jegadevan0079@gmail.com"
+git config --global --list
+ssh-keygen -t rsa
+cat /home/ec2-user/.ssh/id_rsa
+cat /home/ec2-user/.ssh/id_rsa.pub
+cat /home/ec2-user/.ssh/id_rsa.pub
+pwd
+cd GIT/
+cd -
+git clone git@github.com:YottDhee/GIT.git
+cd GIT/
+ls
+ls -la
+git clone git@github.com:YottDhee/GIT.git
+cd -
+rm -rf GIT/
+git clone git@github.com:YottDhee/GIT.git
+mkdir DevOps
+cd DevOps/
+git clone git@github.com:YottDhee/GIT.git
+ls
+git branch
+git init
+cd GIT/
+branch
+git branch
+ls
+rm -rf GIT/ --force
+cd DevOps/
+cd GIT/
+git checkout -b REDMI-NOTE_13Pro+
+ls
+vim hello.py.txt
+git add .
+git status
+git commit -m "REDMI-NOTE_13Pro+ first commit"
+git push origin REDMI-NOTE_13Pro+
+yum list maven
+sudo yum install maven
+mvn -v
+git commit --help
+sudo yum install maven
+mvn archetype:generate -Dgroupid=Demomvn -Dartifactid=DemoMavenProject -DarchetypeArtifactid=Maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=Demomvn -DartifactId=DemoMavenProject -DarchetypeArtifactId=Maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=Demomvn -DartifactId=DemoMavenProject -Dpackage=1.0-SNAPSHOT -DinteractiveMode=false
+ls
+cd DemoMavenProject/
+ls
+cd src/
+ls
+cd ..
+mvn clean install
+vim pom.xml
+ls
+vim pom.xml
+mvn clean install
+vim pom.xml
+mvn clean install
+vim pom.xml
+mvn clean install
+cd
+ls
+rm -rf DemoMavenProject/
+ls
+mvn archetype:generate -DarchetypeArtifactId=simple-testng-quickstart -DarchetypeVersion=1.0 -DgroupId=DemoMvn -DartifactId=DemoMavenProject -Dpackage=1.0-SNAPSHOT -DinteractiveMode=false
+ls
+mvn archetype:generate -DgroupId=Demomvn -DartifactId=DemoMavenProject -Dpackage=1.0-SNAPSHOT -DinteractiveMode=false
+mvn validate
+cd DemoMavenProject/
+mvn validate
+ls
+rm -rf DemoMavenProject/
+mvn archetype:generate -DgroupId=com.yottdhee.app -DartifactId=my-java-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+ls
+cd my-java-app/
+ls
+cd my-java-app/
+ls
+mvn clean install
+ls
+cd target/
+ls
+cd..
+cd ..
+cd src/
+cd main/
+cd java/
+cd com/
+ls
+cd yottdhee/
+ls
+cd app/
+ls
+vim App.java
+cd
+cd my-java-app/target/
+ls
+ls
+cd my-java-app/target/
+ls
+java -cp my-java-app-1.0-SNAPSHOT.jar com.yottdhee.app.App
+cd my-java-app/
+mvn clean
+ls
+mvn clean install
+cd target/
+java -cp  my-java-app-1.0-SNAPSHOT.jar com.yottdhee.app.App
+ls
+cd my-java-app/
+ls
+git init
+git branch
+git branch -m development
+git branch
+ls
+mvn clean
+ls
+git status
+git add.
+git add
+git commit -m "Redmi-1397 - Created a Maven Project"
+git status
+ls
+cd my-java-app/
+git status
+git remote add origin git@github.com:YottDhee/my-java-app.git
+git remote -v
+git remote add origin development
+git push origin development
+history
+history | cut -c 8-
+
